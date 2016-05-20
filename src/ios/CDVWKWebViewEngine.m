@@ -149,9 +149,9 @@
     wkWebView.configuration.suppressesIncrementalRendering = [settings cordovaBoolSettingForKey:@"SuppressesIncrementalRendering" defaultValue:NO];
     wkWebView.configuration.mediaPlaybackAllowsAirPlay = [settings cordovaBoolSettingForKey:@"MediaPlaybackAllowsAirPlay" defaultValue:YES];
    
-   // Hide scrollbars
-   self.wkWebView.scrollView.showsHorizontalScrollIndicator = NO;
-   self.wkWebView.scrollView.showsVerticalScrollIndicator = NO;
+    // Hide scrollbars
+    wkWebView.scrollView.showsHorizontalScrollIndicator = NO;
+    wkWebView.scrollView.showsVerticalScrollIndicator = NO;
 
     /*
      wkWebView.configuration.preferences.javaScriptEnabled = [settings cordovaBoolSettingForKey:@"JavaScriptEnabled" default:YES];
